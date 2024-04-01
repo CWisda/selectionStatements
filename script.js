@@ -39,3 +39,44 @@ let userInput = window.prompt("Hey User, give me a verb");
 console.log(`${superMan} ${userInput}ed to the bank.`)
 
 
+
+//Switch Case Statements
+
+let color = "orange";
+
+switch (color) {
+    case "red" : 
+    console.log("green");
+    break;
+    case "orange" :
+    console.log("blue");
+    break;
+    case "yellow" : 
+    console.log("purple");
+    break;
+    default : 
+    console.log("invalid color selection"); 
+}
+
+
+superManWallet = 0; 
+const input = prompt("Enter your favorite progarmming language"); 
+
+switch (input) {
+    case "JS" :
+        console.log("10 points to Gryffindor");
+        break;
+    case "CSS" :
+        console.log("20 points to Gryffindor");
+        break; 
+    case "Rust" :
+        console.log("10 points from Gryffindor");
+        console.log("10 points to Ravenclaw.");
+        break;
+    case "C" : 
+        console.log("100 points to Hufflepuff");
+        break;
+    default : 
+        console.log("I don't know that language"); 
+        break;
+}
